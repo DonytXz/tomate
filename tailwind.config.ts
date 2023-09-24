@@ -17,6 +17,7 @@ const config: Config = {
         "primary-black": "#1F2023",
         "secondary-black": "#F9F9F926",
         "primary-gray": "rgba(249, 249, 249, 0.1)",
+        "primary-white": "rgba(249, 249, 249, 0.2)",
       },
     },
   },

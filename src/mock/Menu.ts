@@ -1,15 +1,30 @@
 import { menuItem } from "@/types/DashboardTypes";
 
 export const menuItems: Array<menuItem> = [
-  { src: "dashboard.svg", txt: "Dashboard", subMenu: false },
-  { src: "catalogo.svg", txt: "Cátalogo", subMenu: true },
-  { src: "ventas.svg", txt: "Ventas", subMenu: true },
-  { src: "tiposVentas.svg", txt: "Tipos de Venta", subMenu: false },
-  { src: "promociones.svg", txt: "Promociones", subMenu: true },
-  { src: "caja.svg", txt: "Caja", subMenu: true },
-  { src: "reservaciones.svg", txt: "Reservaciones", subMenu: false },
-  { src: "tableros.svg", txt: "Tableros", subMenu: true },
-  { src: "usuarios.svg", txt: "Usuarios", subMenu: true },
-  { src: "mesas.svg", txt: "Mesas", subMenu: true },
-  { src: "reportes.svg", txt: "Reportes", subMenu: true },
+  { src: "/", srcImg: "/dashboard.svg", txt: "Dashboard", subMenu: false },
+  { src: "/catalog", srcImg: "/catalogo.svg", txt: "Cátalogo", subMenu: true },
+  { src: "/sales", srcImg: "/ventas.svg", txt: "Ventas", subMenu: true },
+  {
+    src: "/sales/types",
+    srcImg: "/tiposVentas.svg",
+    txt: "Tipos de Venta",
+    subMenu: false,
+  },
+  {
+    src: "/promotions",
+    srcImg: "/promociones.svg",
+    txt: "Promociones",
+    subMenu: true,
+  },
+  { src: "/cashRegister", srcImg: "/caja.svg", txt: "Caja", subMenu: true },
+  {
+    src: "/reservations",
+    srcImg: "/reservaciones.svg",
+    txt: "Reservaciones",
+    subMenu: false,
+  },
+  { src: "/boards", srcImg: "/tableros.svg", txt: "Tableros", subMenu: true },
+  { src: "/users", srcImg: "/usuarios.svg", txt: "Usuarios", subMenu: true },
+  { src: "/tables", srcImg: "/mesas.svg", txt: "Mesas", subMenu: true },
+  { src: "/reports", srcImg: "/reportes.svg", txt: "Reportes", subMenu: true },
 ];
