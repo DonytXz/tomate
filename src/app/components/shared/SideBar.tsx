@@ -4,7 +4,7 @@ import Menu from "./sideBar/Menu";
 const SideBar = () => {
   return (
     <>
-      <div className="custom-box h-full mx-2 rounded-lg py-8 pr-6 pl-6 max-w-xs">
+      <div className="custom-box h-full mx-2 rounded-lg py-8 pr-6 pl-6 max-w-sm">
         <div className="flex">
           <Menu />
         </div>

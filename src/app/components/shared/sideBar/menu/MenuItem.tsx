@@ -5,7 +5,7 @@ import { menuItem } from "@/types/DashboardTypes";
 const MenuItem = ({ src, txt, subMenu }: menuItem) => {
   return (
     <>
-      <div className="flex px-2 py-4 w-full">
+      <div className="flex px-2 py-4 w-72 max-w-xs ">
         <Image src={src} alt={""} width={24} height={24} />
         <p className="text-white pl-4 text-xl">{txt}</p>
         {subMenu && (
