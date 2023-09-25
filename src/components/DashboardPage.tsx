@@ -17,7 +17,7 @@ const DashboardPage = ({ children }: any) => {
           <SideBar pathname={pathname} />
           <MobileSideBar openMenu={openMenu} pathname={pathname} />
           <div
-            className={`w-full h-full overflow-y-scrooll p-3 lg:p-6 absolute lg:w-[calc(100vw-338px)] lg:left-[338px] top-[127px] ${
+            className={`w-full h-full overflow-y-scrooll p-3 lg:p-6 absolute lg:w-[calc(100%-338px)] lg:left-[338px] top-[127px] ${
               openMenu ? "mt-[100vh]" : ""
             } h-fit`}
           >

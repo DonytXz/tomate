@@ -6,8 +6,8 @@ const MobileSideBar = ({ pathname, openMenu }: any) => {
   return (
     <>
       <div
-        className={`custom-box overflow-auto h-[calc(100vh-118px)] w-screen ml-4 rounded-lg py-8 pr-6 pl-6 lg:hidden fixed max-w-sm mt-[112px] z-50
-      ${openMenu ? "block" : "hidden"} w-screen`}
+        className={`custom-box overflow-auto h-[calc(100vh-118px)] w-screen mx-4 rounded-lg py-8 pr-6 pl-6 lg:hidden fixed mt-[112px] z-50
+      ${openMenu ? "block" : "hidden"} w-[calc(100%-40px)]`}
       >
         {/* <div className="custom-box h-[calc(100%-175.83px)] mx-2 rounded-lg py-8 pr-6 pl-6 max-w-sm fixed mt-[143.86px] z-50"> */}
         <div className="flex flex-col">
