@@ -14,11 +14,11 @@ const ConfigSection = () => {
             width={24}
             height={24}
           />
-          <p className="text-white pl-4 text-xl hidden lg:block">Configuración</p>
+          <p className="text-white pl-4 text-xl">Configuración</p>
         </div>
         <div className={`flex px-2 py-3 w-72 max-w-xs `}>
           <Image src={"/help.svg"} alt={"Ayuda"} width={24} height={24} />
-          <p className="text-white pl-4 text-xl hidden lg:block">Ayuda</p>
+          <p className="text-white pl-4 text-xl">Ayuda</p>
         </div>
         {/* </Link> */}
       </div>

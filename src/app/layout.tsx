@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className="bg-primary-black " lang="en">
       <body className={inter.className}>
         <DashboardPage>{children}</DashboardPage>
       </body>
