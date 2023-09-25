@@ -4,12 +4,11 @@ import { menuItem } from "@/types/DashboardTypes";
 import Link from "next/link";
 
 const MenuItem = ({ src, srcImg, txt, subMenu, pathname }: any) => {
-  
   return (
     <>
       <Link href={src}>
         <div
-          className={`flex px-2 py-4 w-72 max-w-xs ${
+          className={`flex px-2 py-3 w-72 max-w-xs ${
             pathname == src ? "bg-primary-white" : ""
           }`}
         >

@@ -7,6 +7,8 @@
 body, html {
     margin: 0;
     padding: 0;
+    width: 100%;
+    /* height: 100%; */
 }
 
 * {
@@ -18,5 +20,9 @@ body, html {
 .custom-box {
     box-shadow: 5px 5px 10px 0px #0000001A !important;
     background-image: linear-gradient(to bottom, rgba(249, 249, 249, 0.15), rgba(249, 249, 249, 0.03));
-
+}
+.custom-box2 {
+    box-shadow: 5px 5px 10px 0px #0000001A !important;
+    background-image: linear-gradient(to bottom, #F9F9F926, #1F2023);
+    /* background: #1F2023; */
 }
