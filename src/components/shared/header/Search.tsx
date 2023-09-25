@@ -4,8 +4,8 @@ import Image from "next/image";
 const Search = () => {
   return (
     <>
-      <div className="flex bg-primary-gray py-3 px-8 rounded-lg max-h-12 max-w-md">
-        <Image src={"/search.svg"} alt={""} width={17.05} height={17.06} />
+      <div className="bg-primary-gray py-3 px-8 rounded-lg max-h-12 max-w-md hidden md:flex">
+        <Image src={"/search.svg"} alt={"Search icon"} width={17.05} height={17.06} />
         <input
           className="bg-transparent ml-2"
           type="text"
